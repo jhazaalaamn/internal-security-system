@@ -1,0 +1,15 @@
+internal-security-system/
+├── public/              ← ملفات CSS و JS
+│   └── style.css        ← تصميم واجهة الدخول
+├── views/               ← ملفات الواجهات (HTML)
+│   ├── login.ejs
+│   ├── dashboard-employee.ejs
+│   ├── dashboard-info.ejs
+│   ├── dashboard-archive.ejs
+│   ├── dashboard-command.ejs
+│   └── dashboard-dev.ejs
+├── uploads/             ← لحفظ الوسائط
+├── .env                 ← إعدادات القاعدة السرية
+├── server.js            ← ملف تشغيل الموقع
+├── package.json         ← مكتبة المشروع
+└── README.md
